@@ -1,0 +1,264 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="9"
+    android:orientation="horizontal" >
+
+    <Space
+        android:layout_column="1"
+        android:layout_row="8" />
+
+    <Space />
+
+    <android.support.v7.widget.Space android:id="@+id/space3" />
+
+    <android.support.v7.widget.Space android:id="@+id/space2" />
+
+    <android.support.v7.widget.Space
+        android:id="@+id/space1"
+        android:layout_width="1dp"
+        android:layout_height="15dp"
+        android:layout_column="8" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"
+        android:layout_column="1" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="8"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="11"
+        android:onClick="resetFunc"
+        android:text="@string/button_reset" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_column="1"
+        android:layout_gravity="left"
+        android:layout_row="6" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_column="2"
+        android:layout_gravity="left"
+        android:layout_row="6" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_column="3"
+        android:layout_gravity="left"
+        android:layout_row="6" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_column="4"
+        android:layout_gravity="left"
+        android:layout_row="6" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_column="1"
+        android:layout_gravity="left"
+        android:layout_row="7" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_column="2"
+        android:layout_gravity="left"
+        android:layout_row="7" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_column="3"
+        android:layout_gravity="left"
+        android:layout_row="7" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_column="4"
+        android:layout_gravity="left"
+        android:layout_row="7" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_column="1"
+        android:layout_gravity="left"
+        android:layout_row="9" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_column="2"
+        android:layout_gravity="left"
+        android:layout_row="9" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_column="3"
+        android:layout_gravity="left"
+        android:layout_row="9" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_column="4"
+        android:layout_gravity="left"
+        android:layout_row="9" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_column="1"
+        android:layout_gravity="left"
+        android:layout_row="10" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_column="2"
+        android:layout_gravity="left"
+        android:layout_row="10" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_column="3"
+        android:layout_gravity="left"
+        android:layout_row="10" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_column="4"
+        android:layout_gravity="left"
+        android:layout_row="10" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_column="7"
+        android:layout_gravity="left|center_vertical"
+        android:layout_row="6"
+        android:text="@string/text_player" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="8"
+        android:layout_gravity="center"
+        android:layout_row="9"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_column="7"
+        android:layout_gravity="left|center_vertical"
+        android:layout_row="9"
+        android:text="@string/text_dealer" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="8"
+        android:layout_gravity="center"
+        android:layout_row="6"
+        android:text="TextView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="left"
+        android:layout_row="11"
+        android:onClick="hitFunc"
+        android:text="@string/button_hit" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="10"
+        android:onClick="standFunc"
+        android:text="@string/button_stand" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_column="8"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="10"
+        android:onClick="dealFunc"
+        android:text="@string/button_deal" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_column="8"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="2"
+        android:text="@string/bank_num" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_column="7"
+        android:layout_gravity="left|top"
+        android:layout_row="2"
+        android:text="@string/bank" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="50dp"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="5"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="2"
+        android:text="@string/bet" />
+
+</GridLayout>
